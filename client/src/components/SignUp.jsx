@@ -33,7 +33,7 @@ const Signup = (props) => {
     const sentOtp = () =>{
         setLoader(true)
         axios({
-            url:'http://localhost:8000/verifyotp',
+            url:'https://nexus-learning.onrender.com/',
             data:{
                 email
             },
